@@ -1,0 +1,25 @@
+package test.constructor;
+
+public class Data {
+	
+	int x,y,z;
+
+	public Data() // default or zero arg or no argument cons.
+	{
+		x=y=z=1;
+	}
+	
+	public Data(int px,int py,int pz) // 3 arg
+	{
+		x=px; y=py; z=pz;
+	}
+	public Data(int p) // 1 arg
+	{
+		x=y=z=p;
+	}
+	
+	public void show() {
+		System.out.println(x+" "+y+" "+z);
+	}
+
+}
